@@ -1,0 +1,23 @@
+/* This defines styles and classes used in the book */
+body { margin: 5%; text-align: justify; font-size: medium; }
+code { font-family: monospace; }
+h1 { text-align: left; text-decoration: underline; }
+h2 { text-align: left; }
+h2::before { content: "→ "; }
+h3 { text-align: left; }
+h4 { text-align: left; }
+h5 { text-align: left; }
+h6 { text-align: left; }
+h1.title { padding: 100px; text-align: center }
+p.author { padding: 100px; text-align: center }
+h3.date { }
+ol.toc { padding: 0; margin-left: 1em; }
+ol.toc li { list-style-type: none; margin: 0; padding: 0; }
+a.footnoteRef { vertical-align: super; }
+em, em em em, em em em em em { font-style: italic;}
+em em, em em em em { font-style: normal; }
+
+.toc li::before {content: "→"; color: darkblue; }
+.toc li .toc li::before {content: "•"; color: darkblue; }
+.toc { margin: 10px; list-style-type: upper-roman; }
+.toc a { color: darkblue; padding: 10px; text-decoration: none; }
